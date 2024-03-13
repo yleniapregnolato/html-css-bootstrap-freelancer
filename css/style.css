@@ -1,0 +1,23 @@
+:root {
+    --header-color: #2C3E50;
+    --hero-color: #1ABC9C;
+}
+
+.ms_header {
+    height: 80px;
+    background-color: var(--header-color);
+}
+
+/* media query tablet */
+@media screen and (min-width:768px) {
+    .ms_header {
+        height: 100px;
+    }
+}
+
+/* media query desktop */
+@media screen and (min-width: 1024px) {
+    .ms_header {
+        height: 100px;
+    }
+}
