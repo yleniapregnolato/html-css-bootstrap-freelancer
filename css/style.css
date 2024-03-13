@@ -1,23 +1,94 @@
-:root {
-    --header-color: #2C3E50;
-    --hero-color: #1ABC9C;
+h3 {
+    /* debug */
+    height: 150px;
 }
+
+/* utilities */
+
+.ms_bg-1 {
+    background-color: #BA4B63;
+}
+
+.ms_bg-2 {
+    background-color: #1EA4B6;
+}
+
+.ms_bg-3 {
+    background-color: #140F0F; 
+}
+
+.ms_bg-4 {
+    background-color: #1C83C1;
+}
+
+.ms_bg-5 {
+    background-color: #0E38B5;
+}
+
+.ms_bg-6 {
+    background-color: #CCB2A3;
+}
+
+/* /utilities */
+
+/* header */
 
 .ms_header {
+    background-color: #2C3E50;
+    /* debug */
     height: 80px;
-    background-color: var(--header-color);
 }
+/* /header */
+
+/* hero section */
+.ms_hero {
+    background-color: #1ABC9C;
+    /* debug */
+    height: 350px;
+}
+
+/* /hero section */
+
+/* cards section */
+
+.row > div > div {
+    border-radius: 7px;
+    /* debug */
+    height: 250px;
+}
+
+/* /cards section */
 
 /* media query tablet */
+
 @media screen and (min-width:768px) {
     .ms_header {
-        height: 100px;
+        /* debug */
+        min-height: 100px;
+    }
+
+    .ms_hero {
+        /* debug */
+        min-height: 400px;
+    }
+
+}
+
+/* /media query tablet */
+
+
+/* media query desktop */
+
+@media screen and (min-width: 1024px) {
+    .ms_header {
+        /* debug */
+        min-height: 100px;
+    }
+
+    .ms_hero {
+        /* debug */
+        min-height: 400px;
     }
 }
 
-/* media query desktop */
-@media screen and (min-width: 1024px) {
-    .ms_header {
-        height: 100px;
-    }
-}
+/* /media query desktop */
