@@ -60,10 +60,14 @@ h3 {
 /* /cards section */
 
 /* about section */
+
 .ms_about-section {
     background-color: #1ABC9C;
+}
+
+.ms_about {
     /* debug */
-    height: 500px;
+    background-color: orange;
 }
 /* /about section */
 
