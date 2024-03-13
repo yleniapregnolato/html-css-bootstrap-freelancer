@@ -3,6 +3,9 @@ h3 {
     height: 150px;
 }
 
+img {
+    max-width: 100%;
+}
 /* utilities */
 
 .ms_bg-1 {
@@ -47,6 +50,12 @@ h3 {
     height: 350px;
 }
 
+.ms_avatar {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    object-fit: cover;
+}
 /* /hero section */
 
 /* cards section */
