@@ -95,6 +95,12 @@ img {
     /* debug */
     height: 400px;
 }
+
+.row .ms_contacts {
+    /* debug */
+    height: 100px;
+    background-color: white;
+}
 /* /contacts section */
 
 /* footer */
@@ -104,6 +110,7 @@ img {
     /* debug */
     height: 80px;
 }
+
 /* /footer */
 /* media query tablet */
 
