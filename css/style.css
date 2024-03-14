@@ -1,12 +1,40 @@
-h3 {
-    /* debug */
-    height: 150px;
-}
 
 img {
     max-width: 100%;
 }
-/* utilities */
+
+/* header */
+
+.ms_header {
+    background-color: #2C3E50;
+}
+
+.ms_logo {
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+}
+
+/* /header */
+
+/* hero section */
+.ms_hero {
+    background-color: #1ABC9C;
+    /* debug */
+    /* height: 350px; */
+}
+
+.ms_img-avatar {
+    max-width: 200px;
+}
+
+.ms_list-bootstrap {
+    list-style-type: none;
+}
+
+/* /hero section */
+
+/* cards section */
 
 .ms_bg-1 {
     background-color: #BA4B63;
@@ -32,40 +60,6 @@ img {
     background-color: #CCB2A3;
 }
 
-/* /utilities */
-
-/* header */
-
-.ms_header {
-    background-color: #2C3E50;
-    /* debug */
-    height: 80px;
-}
-/* /header */
-
-/* hero section */
-.ms_hero {
-    background-color: #1ABC9C;
-    /* debug */
-    height: 350px;
-}
-
-.ms_avatar {
-    height: 200px;
-    width: 200px;
-    margin: 0 auto;
-    object-fit: cover;
-}
-/* /hero section */
-
-/* cards section */
-
-.row > div > div {
-    border-radius: 7px;
-    /* debug */
-    height: 250px;
-}
-
 /* /cards section */
 
 /* about section */
@@ -74,17 +68,24 @@ img {
     background-color: #1ABC9C;
 }
 
-.ms_about {
-    /* debug */
-    background-color: orange;
+.ms_button {
+    color: white;
+    background-color: #1ABC9C;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 /* /about section */
 
 /* form section */
 
-.ms_form-section {
-    /* debug */
-    height: 450px;
+.ms_form {
+    border: none;
+    color: #606C7A;
+    border-bottom: 1px solid #606C7A;
+}
+
+.ms_message {
+    height: 150px;
 }
 /* /form section */
 
@@ -128,6 +129,10 @@ img {
     .ms_contacts-section {
         max-height: 200px;
     }
+
+    .ms_img-avatar {
+        max-width: 250px;
+    }
 }
 
 /* /media query tablet */
@@ -144,6 +149,10 @@ img {
     .ms_hero {
         /* debug */
         min-height: 400px;
+    }
+
+    .ms_img-avatar {
+        max-width: 250px;
     }
 }
 
