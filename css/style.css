@@ -32,6 +32,10 @@ img {
     list-style-type: none;
 }
 
+.ms_list-bootstrap li a {
+    font-size: 0.8rem;
+}
+
 /* /hero section */
 
 /* cards section */
@@ -97,10 +101,25 @@ img {
     height: 400px;
 }
 
-.row .ms_contacts {
-    /* debug */
-    height: 100px;
-    background-color: white;
+.ms_list-icon {
+    list-style-type: none;
+}
+
+.ms_list-icon li a {
+    border: white;
+}
+
+.ms_icon-contact {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 45px;
+}
+
+.ms_btn-contact {
+    color: #1ABC9C;
+    text-decoration: none;
 }
 /* /contacts section */
 
@@ -133,6 +152,10 @@ img {
     .ms_img-avatar {
         max-width: 250px;
     }
+
+    .ms_list-bootstrap li a {
+        font-size: 1rem;
+    }
 }
 
 /* /media query tablet */
@@ -153,6 +176,10 @@ img {
 
     .ms_img-avatar {
         max-width: 250px;
+    }
+
+    .ms_list-bootstrap li a {
+        font-size: 1.2rem;
     }
 }
 
