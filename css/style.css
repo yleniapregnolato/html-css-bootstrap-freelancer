@@ -20,8 +20,6 @@ img {
 /* hero section */
 .ms_hero {
     background-color: #1ABC9C;
-    /* debug */
-    /* height: 350px; */
 }
 
 .ms_img-avatar {
@@ -88,17 +86,13 @@ img {
     border-bottom: 1px solid #606C7A;
 }
 
-.ms_message {
-    height: 150px;
-}
 /* /form section */
 
 /* contacts section */
 
 .ms_contacts-section {
     background-color: #3A546D;
-    /* debug */
-    height: 400px;
+
 }
 
 .ms_list-icon {
@@ -127,24 +121,12 @@ img {
 
 .ms_footer {
     background-color: #2C3E50;
-    /* debug */
-    height: 80px;
 }
-
 /* /footer */
 /* media query tablet */
 
 @media screen and (min-width:768px) {
-    .ms_header {
-        /* debug */
-        min-height: 100px;
-    }
-
-    .ms_hero {
-        /* debug */
-        min-height: 400px;
-    }
-
+    
     .ms_contacts-section {
         max-height: 200px;
     }
@@ -164,16 +146,7 @@ img {
 /* media query desktop */
 
 @media screen and (min-width: 1024px) {
-    .ms_header {
-        /* debug */
-        min-height: 100px;
-    }
-
-    .ms_hero {
-        /* debug */
-        min-height: 400px;
-    }
-
+    
     .ms_img-avatar {
         max-width: 250px;
     }
