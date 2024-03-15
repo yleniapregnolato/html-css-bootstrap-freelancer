@@ -34,6 +34,14 @@ img {
     font-size: 0.8rem;
 }
 
+.star-line {
+    display: inline-block;
+    width: 10%;
+    height: 2px;
+    background-color: white;
+    vertical-align: middle;
+}
+
 /* /hero section */
 
 /* cards section */
@@ -60,6 +68,14 @@ img {
 
 .ms_bg-6 {
     background-color: #CCB2A3;
+}
+
+.star-line-black {
+    display: inline-block;
+    width: 10%;
+    height: 2px;
+    background-color: black;
+    vertical-align: middle;
 }
 
 /* /cards section */
